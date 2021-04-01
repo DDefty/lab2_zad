@@ -36,3 +36,5 @@ for(let i = 0; i < allGrades.length; i++) {
 average = sum / wage;
 console.log(average.toFixed(2));
 }
+const { allGrades } = user;
+console.log(_.find(allGrades, ['weight', 1] ));
